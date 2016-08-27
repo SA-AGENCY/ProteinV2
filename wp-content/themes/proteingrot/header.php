@@ -29,7 +29,11 @@
    <span class="fa fa-facebook-official" aria-hidden="true"></span>
    <span class="fa fa-instagram" aria-hidden="true"></span>
    <span class="user">
-     <span class="button">Logga in</span>
+   <?php if ( is_user_logged_in() ) {
+    echo '<span class="button">Logga ut</span>';
+} else {
+    echo '<span class="button">Logga in</span>';
+} ?>
    </span>
   </div>
   
