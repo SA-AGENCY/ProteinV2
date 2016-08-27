@@ -3,6 +3,6 @@
 get_header();
 ?>
 
-[woocommerce_klarna_checkout]
+<?php echo do_shortcode('[woocommerce_klarna_checkout]'); ?>
 
 <?php get_footer(); ?>
