@@ -19,7 +19,11 @@
     ---------------------------------------- -->
 </head>
 <body>
-<header>
+<?php
+	$selected = get_field('navigation_style');
+?>
+
+<header class="<?php if( in_array('Transparent', $selected) ) {echo ' transparent ';}; ?>">
 	<div class="brand"></div>
   <ul class="menu-desktop sa-anim">
   	<?php wp_nav_menu(array('menu' => 'main')); ?>
