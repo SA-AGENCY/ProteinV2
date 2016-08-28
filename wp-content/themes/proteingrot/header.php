@@ -60,8 +60,10 @@
   </div>
 </div>
 
-<a id="menu-toggle" href="#" class="js-trigger">
-	<span class="menu-bar bar1"></span>
-  <span class="menu-bar bar2"></span>
-  <span class="menu-bar bar3"></span>
-</a>
+<div class="<?php if( in_array('Transparent', $selected) ) {echo ' menu-toggle-transparent ';}; ?>">
+	<div id="menu-toggle" href="#" class="js-trigger">
+		<span class="menu-bar bar1"></span>
+  	<span class="menu-bar bar2"></span>
+  	<span class="menu-bar bar3"></span>
+	</div>
+</div>
