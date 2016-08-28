@@ -2,6 +2,9 @@
 $(function() {
 	'use strict';
 	
+	var startsida = document.getElementsByClassName('menu-item-86');
+	$(startsida).addClass('hide'); 
+	
 	var header = document.getElementsByTagName('header');
 	var menu = document.getElementById('menu-toggle'), toggled = false;
 	var jsmenu = document.getElementsByClassName('js-menu');
@@ -39,6 +42,27 @@ $(function() {
 		$(jstoggle).toggleClass('add__white');
 	});
 	
+});
+
+/* Scroll To Jquery */
+$(document).on('click', 'a[href^="#"]', function(e) {
+    'use strict';
+    var id = $(this).attr('href');
+
+    // target element
+    var $id = $(id);
+    if ($id.length === 0) {
+        return;
+    }
+
+    // prevent standard hash navigation (avoid blinking in IE)
+    e.preventDefault();
+
+    // top position relative to the document
+    var pos = $(id).offset().top - 80;
+
+    // animated top scrolling
+    $('body, html').animate({scrollTop: pos}, {duration: 1500, easing: "easeInOutQuint"});
 });
 
 

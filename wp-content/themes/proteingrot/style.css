@@ -576,5 +576,13 @@ h6 {font-size: 1.5em;}
 
 }
 
-/* Typed */
-.typed-cursor { opacity:1;-webkit-animation:blink 0.7s infinite;-moz-animation:blink 0.7s infinite;animation:blink 0.7s infinite;} @keyframes blink { 0% { opacity:1;} 50% { opacity:0;} 100% { opacity:1;} } @-webkit-keyframes blink { 0% { opacity:1;} 50% { opacity:0;} 100% { opacity:1;} } @-moz-keyframes blink { 0% { opacity:1;} 50% { opacity:0;} 100% { opacity:1;} }
+/* Buy */
+.block__buy {
+	max-width: 80%;
+	margin: 0 auto;
+}
+
+.block__buy li {list-style: none; background: #fff; border-radius: 7px;}
+.block__buy h3 {font-size: 1.5em; display: block; width: 100%; text-align: center;}
+.block__buy a {color: #000; text-decoration: none;}
+.block__buy .wp-post-image {margin: 0 auto; width: 50%; height: auto;}
