@@ -585,7 +585,7 @@ h6 {font-size: 1.5em;}
 	text-align: center;
 }
 
-.block__buy li {list-style: none; background: #fff; border-radius: 4px; padding: 20px 0;}
+.block__buy li {list-style: none; background: #fff; border-radius: 4px; padding: 40px 20px; border-top: 5px solid #74AF27;}
 .block__buy h3 {font-size: 1.5em; display: block; width: 100%; text-align: center; margin-top: 10px;}
 .block__buy a {color: #000; text-decoration: none;}
 .block__buy .wp-post-image {margin: 0 auto; width: 50%; height: auto;}
@@ -594,7 +594,7 @@ h6 {font-size: 1.5em;}
 	width: auto;
 	height: auto;
 	padding: 13px 30px;
-	border: 2px solid #fff;
+	border: 2px solid #74AF27;
 	border-radius: 4px;
 	text-transform: uppercase;
 	font-weight: 700;
@@ -606,6 +606,12 @@ h6 {font-size: 1.5em;}
 	background: #74AF27;
 	margin: 0 auto;
 	margin-top: 20px;
+}
+
+.block__buy .added_to_cart {
+	font-size: 0.9em;
+	text-transform: uppercase;
+	color: #74AF27;
 }
 
 @media only screen and (max-width:992px) {
