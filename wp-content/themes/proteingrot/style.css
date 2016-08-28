@@ -543,7 +543,7 @@ h6 {font-size: 1.5em;}
 	height: auto;
 	padding: 13px 30px;
 	border: 2px solid #fff;
-	border-radius: 4px;
+	border-radius: 30px;
 	text-transform: uppercase;
 	color: #fff;
 	background: none;
@@ -595,7 +595,7 @@ h6 {font-size: 1.5em;}
 	height: auto;
 	padding: 13px 30px;
 	border: 2px solid #74AF27;
-	border-radius: 4px;
+	border-radius: 30px;
 	text-transform: uppercase;
 	font-weight: 700;
 	letter-spacing: 0.05em;
@@ -609,9 +609,10 @@ h6 {font-size: 1.5em;}
 }
 
 .block__buy .added_to_cart {
-	font-size: 0.9em;
+	font-size: 0.85em;
 	text-transform: uppercase;
 	color: #74AF27;
+	margin-left: 10px;
 }
 
 @media only screen and (max-width:992px) {
