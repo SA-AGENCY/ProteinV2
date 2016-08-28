@@ -138,6 +138,10 @@ header .right-links .user .button {
 	cursor: pointer;
 }
 
+header .right-links .user a {
+	text-decoration: none;
+}
+
 header .right-links .fa {font-size: 1.1em;}
 
 header .right-links span {

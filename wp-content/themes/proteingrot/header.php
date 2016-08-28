@@ -34,10 +34,12 @@
    <span class="fa fa-instagram" aria-hidden="true"></span>
    <span class="user">
    <?php if ( is_user_logged_in() ) {
-    echo '<a href="'. wp_logout_url( get_permalink( woocommerce_get_page_id( 'myaccount' ) ) ) .'"><span class="button">Logga ut</span></a>';
-} else {
-    echo '<a href="'. wp_logout_url( get_permalink( woocommerce_get_page_id( 'myaccount' ) ) ) .'"><span class="button">Logga in</span></a>';
-} ?>
+    echo '<a href="'. wp_logout_url( get_permalink( woocommerce_get_page_id( 'myaccount' ) ) ) .'">
+		<span class="button">Logga ut</span></a>';
+		} else {
+    echo '<a href="'. wp_logout_url( get_permalink( woocommerce_get_page_id( 'myaccount' ) ) ) .'">
+		<span class="button">Logga in</span></a>';
+	 } ?>
    </span>
   </div>
   
@@ -49,7 +51,13 @@
   <div class="js-ul">
   	<div class="brand"></div>
 		<?php wp_nav_menu(array('menu' => 'main')); ?>
-    <span class="button">Logga in</span>
+    <?php if ( is_user_logged_in() ) {
+    echo '<a href="'. wp_logout_url( get_permalink( woocommerce_get_page_id( 'myaccount' ) ) ) .'">
+		<span class="button">Logga ut</span></a>';
+		} else {
+    echo '<a href="'. wp_logout_url( get_permalink( woocommerce_get_page_id( 'myaccount' ) ) ) .'">
+		<span class="button">Logga in</span></a>';
+} ?>
   </div>
   
   <div class="social">
