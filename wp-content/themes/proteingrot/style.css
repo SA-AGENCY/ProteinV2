@@ -586,3 +586,5 @@ h6 {font-size: 1.5em;}
 .block__buy h3 {font-size: 1.5em; display: block; width: 100%; text-align: center;}
 .block__buy a {color: #000; text-decoration: none;}
 .block__buy .wp-post-image {margin: 0 auto; width: 50%; height: auto;}
+.block__buy .price {width: 100%; height: auto; display: block; text-align: center;}
+.block__buy .button {width: auto; height: auto; padding: 13px 30px; display: inline-block; border-radius: 50px; color: #fff; background: #74AF27;}

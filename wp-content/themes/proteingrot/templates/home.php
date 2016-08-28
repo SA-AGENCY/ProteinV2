@@ -8,7 +8,7 @@ get_header();
 get_header();
 ?>
 
-<div class="block block__hero">
+<div class="block block__hero" id="startsida">
 
 <div class="shadow"></div>
 <div class="block__bg_zoom" style="background: url('<?php echo get_field('bakgrund'); ?>') center center;"></div>
