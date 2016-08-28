@@ -31,9 +31,9 @@
    <span class="user">
    <?php if ( is_user_logged_in() ) {
     echo '<span class="button">Logga ut</span>';
-} else {
+		} else {
     echo '<span class="button">Logga in</span>';
-} ?>
+		} ?>
    </span>
   </div>
   

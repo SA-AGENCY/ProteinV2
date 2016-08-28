@@ -63,6 +63,7 @@ header {
 	width: 100%;
 	height: 80px;
 	display: block !important;
+	background: #fff;
 }
 
 header .menu-desktop {
@@ -88,7 +89,7 @@ header .menu-desktop li a {
 	font-weight: 700;
 	text-decoration: none;
 	text-transform: uppercase;
-	color: #fff;
+	color: #000;
 	letter-spacing: 0.05em;
 	cursor: pointer;
 }
@@ -99,7 +100,7 @@ header .brand {
 	top: 20px;
 	height: 40px;
 	width: 207px;
-	background: url(images/brand/logo-white.png) center center;
+	background: url(images/brand/logo-green.png) center center;
 	background-size: cover;
 }
 
@@ -110,7 +111,7 @@ header .right-links {
 	position: fixed;
 	right: 40px;
 	top: 0;
-	color: #fff;
+	color: #000;
 }
 
 header .right-links .user {
@@ -123,8 +124,8 @@ header .right-links .user .button {
 	height: auto;
 	padding: 10px 20px;
 	border-radius: 30px;
-	border: 2px solid #fff;
-	color: #fff;
+	border: 2px solid #000;
+	color: #000;
 	font-size: 0.7em;
 	text-transform: uppercase;
 	font-weight: 700;
@@ -154,6 +155,44 @@ header .right-links span:last-child {
 		left: 20px;
 	}
 }
+
+/* Transparent Header */
+.transparent {background: none;}
+.transparent ul li a {color: #fff;}
+.transparent .brand {
+	background: url(images/brand/logo-white.png) center center;
+	background-size: cover;
+}
+
+.transparent .right-links {color: #fff;}
+.transparent .right-links .user .button {color: #fff; border-color: #fff;}
+
+.transparent .sa-anim a::after {background: #fff;}
+.transparent .current_page_item a::after {background: #fff !important;}
+
+.menu-toggle-transparent .menu-bar {background: #fff;}
+
+/* Scrolled Header */
+.scroll__trigger {
+	background: #fff;
+	border-bottom: 1px solid #CFCFCF;
+}
+
+.scroll__trigger  .brand {
+	position: fixed;
+	left: 40px;
+	top: 20px;
+	height: 40px;
+	width: 207px;
+	background: url(images/brand/logo-green.png) center center;
+	background-size: cover;
+}
+
+.scroll__trigger ul li a {color: #000;}
+.scroll__trigger .right-links {color: #000;}
+.scroll__trigger .right-links .user .button {color: #000; border-color: #000;}
+
+.scroll__trigger .menu-bar {background: #000;}
 
 .js-menu {
 	position: fixed;
