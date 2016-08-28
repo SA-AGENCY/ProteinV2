@@ -52,6 +52,8 @@ body {
 	}
 	
 	.block__picture {display: none;}
+	
+	.grid__six_twelve {margin-bottom: 20px;}
 }
 
 /* Header */
@@ -580,11 +582,33 @@ h6 {font-size: 1.5em;}
 .block__buy {
 	max-width: 80%;
 	margin: 0 auto;
+	text-align: center;
 }
 
-.block__buy li {list-style: none; background: #fff; border-radius: 7px;}
-.block__buy h3 {font-size: 1.5em; display: block; width: 100%; text-align: center;}
+.block__buy li {list-style: none; background: #fff; border-radius: 4px; padding: 20px 0;}
+.block__buy h3 {font-size: 1.5em; display: block; width: 100%; text-align: center; margin-top: 10px;}
 .block__buy a {color: #000; text-decoration: none;}
 .block__buy .wp-post-image {margin: 0 auto; width: 50%; height: auto;}
-.block__buy .price {width: 100%; height: auto; display: block; text-align: center;}
-.block__buy .button {width: auto; height: auto; padding: 13px 30px; display: inline-block; border-radius: 50px; color: #fff; background: #74AF27;}
+.block__buy .price {width: 100%; height: auto; display: block; text-align: center; color: #74AF27; font-size: 1.2em; font-weight: 600; margin-top: 10px;}
+.block__buy .button {
+	width: auto;
+	height: auto;
+	padding: 13px 30px;
+	border: 2px solid #fff;
+	border-radius: 4px;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 0.05em;
+	font-size: 1em;
+	cursor: pointer;
+	display: inline-block;
+	color: #fff; 
+	background: #74AF27;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+@media only screen and (max-width:992px) {
+	.block__buy {max-width: 100%;}
+	.block__buy h3 {font-size: 1.3em;}
+}
