@@ -65,4 +65,41 @@ style="<?php if( $bgbuy ) {echo 'background: url('.$bgbuy.') center center';} el
 </div>
 
 </div>
+
+<div class="block block__content">
+  <div class="grid__four_twelve">
+  <?php /*echo do_shortcode('[woocommerce_my_account]'); */?><p>dance</p>
+  </div>
+  
+  
+  <div class="grid__four_twelve">
+  <section style="background-color:#74af26;">
+ <div class="wrapper" style="text-align:center;">
+	<h2 style="color:#fff;"> Kontakt! </h2>
+
+	<p style="color:#fff;">VILL DU VETA MER OM ELLER BLI
+ÅTERFÖRSÄLJARE AV VÅR GRÖT? <br>
+
+KONTAKTA OSS PÅ:<br>
+08-7108000<br>
+info@proteingrot.se</p>	
+
+
+ </div>
+</section>
+
+
+<section class="footerLast" style="background-color:#74AF27;">
+ <img src="<?php echo get_template_directory_uri(); ?>/images/SF_pos.svg" style="width:350px;height:350px;"><br>
+ <p>Proteingröt drivs av SuperFuel AB<br>
+ All rights reserved Superfuel AB 2016</p>
+</section>
+  </div>
+  
+  
+  <div class="grid__four_twelve">
+  <?php /*echo do_shortcode('[woocommerce_my_account]'); */?>
+  </div>
+</div>
+
 <?php get_footer(); ?>
