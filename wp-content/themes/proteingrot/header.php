@@ -30,8 +30,8 @@
   </ul>
   
   <div class="right-links">
-   <span class="fa fa-facebook-official" aria-hidden="true"></span>
-   <span class="fa fa-instagram" aria-hidden="true"></span>
+   <a href="https://www.facebook.com/proteingrot/" target="_blank"><span class="fa fa-facebook-official" aria-hidden="true"></span></a>
+   <a href="https://www.instagram.com/proteingrot.se/" target="_blank"><span class="fa fa-instagram" aria-hidden="true"></span></a>
    <span class="user">
    <?php if ( is_user_logged_in() ) {
     echo '<a href="'. wp_logout_url( get_permalink( woocommerce_get_page_id( 'myaccount' ) ) ) .'">
@@ -61,8 +61,8 @@
   </div>
   
   <div class="social">
-  	<span class="fa fa-facebook-official" aria-hidden="true"></span>
-    <span class="fa fa-instagram" aria-hidden="true"></span>
+  	<a href="https://www.facebook.com/proteingrot/"><span class="fa fa-facebook-official" aria-hidden="true"></span></a>
+    <a href="https://www.instagram.com/proteingrot.se/"><span class="fa fa-instagram" aria-hidden="true"></span></a>
   </div>
   
   </div>
