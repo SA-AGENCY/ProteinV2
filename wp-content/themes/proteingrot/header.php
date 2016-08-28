@@ -19,11 +19,7 @@
     ---------------------------------------- -->
 </head>
 <body>
-<?php
-	$selected = get_field('navigation_style');
-?>
-
-<header class="<?php if( in_array('Transparent', $selected) ) {echo ' transparent ';}; ?>">
+<header>
 	<div class="brand"></div>
   <ul class="menu-desktop sa-anim">
   	<?php wp_nav_menu(array('menu' => 'main')); ?>
@@ -60,10 +56,8 @@
   </div>
 </div>
 
-<div class="<?php if( in_array('Transparent', $selected) ) {echo ' menu-toggle-transparent ';}; ?>">
-<div id="menu-toggle" href="#" class="js-trigger">
+<a id="menu-toggle" href="#" class="js-trigger">
 	<span class="menu-bar bar1"></span>
   <span class="menu-bar bar2"></span>
   <span class="menu-bar bar3"></span>
-</div>
-</div>
+</a>
