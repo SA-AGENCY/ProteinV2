@@ -494,6 +494,9 @@ header .menu-desktop .current_page_item a::after {
 
 .scroll__trigger .menu-bar {background: #000;}
 
+.scroll__trigger .sa-anim a::after {background: #000;}
+.scroll__trigger .current_page_item a::after {background: #000 !important;}
+
 /* Typography */
 h1 {font-size: 3em;}
 h2 {font-size: 2.5em;}
