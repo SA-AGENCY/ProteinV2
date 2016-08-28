@@ -207,12 +207,12 @@ header .right-links span:last-child {
 .js-menu-container .js-ul .button {
 	border: 2px solid #fff;
 	color: #fff;
-	padding: 13px 30px;
+	padding: 10px 30px;
 	display: inline-block;
 	border-radius: 40px;
 	margin-top: 0.5em;
 	text-transform: uppercase;
-	font-size: 0.9em;
+	font-size: 0.8em;
 	font-weight: 600;
 }
 
@@ -247,7 +247,7 @@ header .right-links span:last-child {
 /* Menu Icon */
 .js-trigger {
   display: none;
-  position: absolute;
+  position: fixed;
   width: 40px;
   height: 40px;
   border-radius: 3px;
@@ -492,10 +492,22 @@ header .menu-desktop .current_page_item a::after {
 .scroll__trigger .right-links {color: #000;}
 .scroll__trigger .right-links .user .button {color: #000; border-color: #000;}
 
-.scroll__trigger .menu-bar {background: #000;}
+.menu-toggle-transparent .scrolled .menu-bar {background: #000;}
 
 .scroll__trigger .sa-anim a::after {background: #000;}
 .scroll__trigger .current_page_item a::after {background: #000 !important;}
+
+.add__white .menu-bar {background: #fff !important;}
+
+
+@media only screen and (max-width:992px) {
+	.scroll__trigger .brand {
+		height: 30px;
+		width: 155px;
+		top: 25px;
+		left: 20px;
+	}
+}
 
 /* Typography */
 h1 {font-size: 3em;}

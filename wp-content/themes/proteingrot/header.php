@@ -35,7 +35,7 @@
    <span class="user">
    <?php if ( is_user_logged_in() ) {
     echo '<a href="'. wp_logout_url( get_permalink( woocommerce_get_page_id( 'myaccount' ) ) ) .'">
-		<span class="button">Logga ut</span></a>';
+		<span class="button">Mitt konto</span></a>';
 		} else {
     echo '<a href="'. wp_logout_url( get_permalink( woocommerce_get_page_id( 'myaccount' ) ) ) .'">
 		<span class="button">Logga in</span></a>';
@@ -53,10 +53,10 @@
 		<?php wp_nav_menu(array('menu' => 'main')); ?>
     <?php if ( is_user_logged_in() ) {
     echo '<a href="'. wp_logout_url( get_permalink( woocommerce_get_page_id( 'myaccount' ) ) ) .'">
-		<span class="button">Logga ut</span></a>';
+		<span class="button btn__small">Mitt konto</span></a>';
 		} else {
     echo '<a href="'. wp_logout_url( get_permalink( woocommerce_get_page_id( 'myaccount' ) ) ) .'">
-		<span class="button">Logga in</span></a>';
+		<span class="button btn__small">Logga in</span></a>';
 } ?>
   </div>
   

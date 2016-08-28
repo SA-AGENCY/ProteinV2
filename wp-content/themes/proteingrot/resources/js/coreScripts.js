@@ -5,16 +5,23 @@ $(function() {
 	var header = document.getElementsByTagName('header');
 	var menu = document.getElementById('menu-toggle'), toggled = false;
 	var jsmenu = document.getElementsByClassName('js-menu');
+	var jstoggle = document.getElementsByClassName('js-trigger');
 		
 	
 	// Add class scroll__trigger on scroll. 
 	$(window).scroll(function() {
 		if ($(document).scrollTop() > 5) {
 			$(header).addClass('scroll__trigger');
+			$(jstoggle).addClass('scrolled');
 		} else {
 			$(header).removeClass('scroll__trigger');
+			$(jstoggle).removeClass('scrolled');
 		}
 	});
+	
+	if($(jsmenu).is(':visible')) {
+    alert('hi');
+	}
 	
 	// Trigger Animation on MenuIcon
 	menu.addEventListener('click', function() {
@@ -29,6 +36,7 @@ $(function() {
 	
 	$(menu).click(function() {
 		$(jsmenu).fadeToggle('js-menu-toggled');
+		$(jstoggle).toggleClass('add__white');
 	});
 	
 });
