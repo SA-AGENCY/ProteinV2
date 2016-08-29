@@ -3,11 +3,6 @@
 get_header();
 ?>
 
-<?php /* Template Name: Home */ 
-
-get_header();
-?>
-
 <div class="block block__hero" id="startsida">
 
 <div class="shadow"></div>
@@ -20,7 +15,7 @@ get_header();
     </h4>
 		
     <button class="btn btn__green os-animation" data-os-animation="fadeInUp" data-os-animation-delay="0s">
-			<?php echo get_field('knapptext'); ?>
+			<a href="#kop" style="color:white;text-decoration:none;"><?php echo get_field('knapptext'); ?></a>
     </button>
  </div>
  
@@ -66,39 +61,39 @@ style="<?php if( $bgbuy ) {echo 'background: url('.$bgbuy.') center center';} el
 
 </div>
 
+<!-- <section class="footer-sub">
+ <div class="wrapper">
+  <div class="block__wrapper align__center">
+<h4 class="typography__block spacing__medium_bot">Partners</h4></div></div><br>
+  <div class="holder"><img src="http://woowho.se/wp-content/themes/protein/images/logos/nordicwellness.png"></div>
+  <div class="holder"><img src="http://woowho.se/wp-content/themes/protein/images/logos/bodybox.png"></div>
+  <div class="holder"><img src="http://woowho.se/wp-content/themes/protein/images/logos/herfitness.png"></div>
+  <div class="holder"><img src="http://woowho.se/wp-content/themes/protein/images/logos/placeholder.png"></div>
+  <div class="holder"><img src="http://woowho.se/wp-content/themes/protein/images/logos/placeholder.png"></div>
+ </div>
+</section> -->
+
 <div class="block block__content">
   <div class="grid__four_twelve">
-  <?php /*echo do_shortcode('[woocommerce_my_account]'); */?><p>dance</p>
+	<li class="nav-item">
+                <a class="nav-link" href="#">FAQ</a>
+    </li>
+    <li class="nav-item">
+                <a class="nav-link" href="#">Köpvillkor</a>
+    </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Kontakt</a>
+            </li>
+    </ul>
   </div>
   
-  
-  <div class="grid__four_twelve">
-  <section style="background-color:#74af26;">
- <div class="wrapper" style="text-align:center;">
-	<h2 style="color:#fff;"> Kontakt! </h2>
-
-	<p style="color:#fff;">VILL DU VETA MER OM ELLER BLI
-ÅTERFÖRSÄLJARE AV VÅR GRÖT? <br>
-
-KONTAKTA OSS PÅ:<br>
-08-7108000<br>
-info@proteingrot.se</p>	
-
-
- </div>
-</section>
-
-
-<section class="footerLast" style="background-color:#74AF27;">
- <img src="<?php echo get_template_directory_uri(); ?>/images/SF_pos.svg" style="width:350px;height:350px;"><br>
- <p>Proteingröt drivs av SuperFuel AB<br>
- All rights reserved Superfuel AB 2016</p>
-</section>
+    <div class="grid__four_twelve">
+    <a href="https://www.facebook.com/proteingrot/" target="_blank"><span class="fa fa-facebook-official fa-4x" aria-hidden="true" style="color:black;"></span></a>
+	<a href="https://www.instagram.com/proteingrot.se/" target="_blank"><span class="fa fa-instagram fa-4x" aria-hidden="true" style="color:black;></span></a>
   </div>
   
-  
   <div class="grid__four_twelve">
-  <?php /*echo do_shortcode('[woocommerce_my_account]'); */?>
+  <?php /*echo do_shortcode('[mailchimp]'); */?>
   </div>
 </div>
 
