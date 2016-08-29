@@ -94,6 +94,12 @@ function woo_archive_custom_cart_button_text() {
 }
 
 
-
+add_action("template_redirect", 'redirection_function');
+function redirection_function(){
+    global $woocommerce;
+    if( is_cart() && WC()->cart->cart_contents_count == 0){
+        wp_safe_redirect( get_permalink( woocommerce_get_page_id( 'shop' ) ) );
+    }
+}
 
 ?>
