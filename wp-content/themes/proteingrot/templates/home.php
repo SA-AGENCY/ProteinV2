@@ -78,7 +78,7 @@ style="<?php if( $bgbuy ) {echo 'background: url('.$bgbuy.') center center';} el
   <ul>
 	<li class="nav-item">
                 <a class="nav-link" href="#">FAQ</a>
-                <a class="nav-link" href="#">Köpvillkor</a>
+                <a class="nav-link" href="/villkor">Köpvillkor</a>
                 <a class="nav-link" href="#">Kontakt</a>
             </li>
     </ul>

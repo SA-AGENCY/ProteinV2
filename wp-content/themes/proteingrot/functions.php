@@ -93,13 +93,11 @@ function woo_archive_custom_cart_button_text() {
  
 }
 
+/*
+// Tar bort länk till produkt-page
 
-add_action("template_redirect", 'redirection_function');
-function redirection_function(){
-    global $woocommerce;
-    if( is_cart() && WC()->cart->cart_contents_count == 0){
-        wp_safe_redirect( get_permalink( woocommerce_get_page_id( 'shop' ) ) );
-    }
-}
+remove_action( 'woocommerce_before_shop_loop_item', 'woocommerce_template_loop_product_link_open', 10 );
+remove_action( 'woocommerce_after_shop_loop_item', 'woocommerce_template_loop_product_link_close', 5 ); */
+
 
 ?>
