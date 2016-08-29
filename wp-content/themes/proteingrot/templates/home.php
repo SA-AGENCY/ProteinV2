@@ -75,6 +75,7 @@ style="<?php if( $bgbuy ) {echo 'background: url('.$bgbuy.') center center';} el
 
 <div class="block block__content">
   <div class="grid__four_twelve">
+  <ul>
 	<li class="nav-item">
                 <a class="nav-link" href="#">FAQ</a>
     </li>
@@ -86,15 +87,14 @@ style="<?php if( $bgbuy ) {echo 'background: url('.$bgbuy.') center center';} el
             </li>
     </ul>
   </div>
-  
+
     <div class="grid__four_twelve">
     <a href="https://www.facebook.com/proteingrot/" target="_blank"><span class="fa fa-facebook-official fa-4x" aria-hidden="true" style="color:black;"></span></a>
-	<a href="https://www.instagram.com/proteingrot.se/" target="_blank"><span class="fa fa-instagram fa-4x" aria-hidden="true" style="color:black;></span></a>
+	<a href="https://www.instagram.com/proteingrot.se/" target="_blank"><span class="fa fa-instagram fa-4x" aria-hidden="true" style="color:black;"></span></a>
   </div>
   
-  <div class="grid__four_twelve">
-  <?php /*echo do_shortcode('[mailchimp]'); */?>
+    <div class="grid__four_twelve">
+  <?php echo do_shortcode('[instagram-feed]'); ?><!-- mailchimp -->
   </div>
-</div>
-
+   </div>
 <?php get_footer(); ?>
