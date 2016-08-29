@@ -89,12 +89,12 @@ style="<?php if( $bgbuy ) {echo 'background: url('.$bgbuy.') center center';} el
   </div>
 
     <div class="grid__four_twelve">
-    <a href="https://www.facebook.com/proteingrot/" target="_blank"><span class="fa fa-facebook-official fa-4x" aria-hidden="true" style="color:black;"></span></a>
+    <a href="https://www.facebook.com/proteingrot/" target="_blank"><span class="fa fa-facebook-official fa-4x" aria-hidden="true" style="color:black;"></span></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 	<a href="https://www.instagram.com/proteingrot.se/" target="_blank"><span class="fa fa-instagram fa-4x" aria-hidden="true" style="color:black;"></span></a>
   </div>
   
     <div class="grid__four_twelve">
-  <?php echo do_shortcode('[instagram-feed]'); ?><!-- mailchimp -->
+  <?php echo do_shortcode('[mc4wp_form id="97"]'); ?><!-- mailchimp -->
   </div>
    </div>
 <?php get_footer(); ?>
