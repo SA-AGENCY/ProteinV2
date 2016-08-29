@@ -33,10 +33,10 @@ do_action( 'woocommerce_before_cart' ); ?>
 		<tr>
 			<th class="product-remove">&nbsp;</th>
 			<th class="product-thumbnail">&nbsp;</th>
-			<th class="product-name"><?php _e( 'Product', 'woocommerce' ); ?></th>
-			<th class="product-price"><?php _e( 'Price', 'woocommerce' ); ?></th>
-			<th class="product-quantity"><?php _e( 'Quantity', 'woocommerce' ); ?></th>
-			<th class="product-subtotal"><?php _e( 'Total', 'woocommerce' ); ?></th>
+			<th class="product-name"><?php _e( 'Produkt', 'woocommerce' ); ?></th>
+			<th class="product-price"><?php _e( 'Pris', 'woocommerce' ); ?></th>
+			<th class="product-quantity"><?php _e( 'Antal', 'woocommerce' ); ?></th>
+			<th class="product-subtotal"><?php _e( 'Totalt', 'woocommerce' ); ?></th>
 		</tr>
 	</thead>
 	<tbody>
@@ -135,13 +135,13 @@ do_action( 'woocommerce_before_cart' ); ?>
 				<?php if ( wc_coupons_enabled() ) { ?>
 					<div class="coupon">
 
-						<label for="coupon_code"><?php _e( 'Coupon:', 'woocommerce' ); ?></label> <input type="text" name="coupon_code" class="input-text" id="coupon_code" value="" placeholder="<?php esc_attr_e( 'Coupon code', 'woocommerce' ); ?>" /> <input type="submit" class="button" name="apply_coupon" value="<?php esc_attr_e( 'Apply Coupon', 'woocommerce' ); ?>" />
+						<label for="coupon_code"><?php _e( 'Kupong:', 'woocommerce' ); ?></label> <input type="text" name="coupon_code" class="input-text" id="coupon_code" value="" placeholder="<?php esc_attr_e( 'Kod', 'woocommerce' ); ?>" /> <input type="submit" class="button" name="apply_coupon" value="<?php esc_attr_e( 'Ge mig rabatt!', 'woocommerce' ); ?>" />
 
 						<?php do_action( 'woocommerce_cart_coupon' ); ?>
 					</div>
 				<?php } ?>
 
-				<input type="submit" class="button" name="update_cart" value="<?php esc_attr_e( 'Update Cart', 'woocommerce' ); ?>" />
+				<input type="submit" class="button" name="update_cart" value="<?php esc_attr_e( 'Uppdatera kundvagnen', 'woocommerce' ); ?>" />
 
 				<?php do_action( 'woocommerce_cart_actions' ); ?>
 
