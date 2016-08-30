@@ -73,8 +73,32 @@ style="<?php if( $bgbuy ) {echo 'background: url('.$bgbuy.') center center';} el
  </div>
 </section> -->
 
+<div class="block block__content iphone__bg">
+	<div class="grid__six_twelve">
+    	<img src="<?php echo get_template_directory_uri(); ?>/images/iphone.png">
+    </div>
+    
+    <div class="grid__six_twelve">
+    <span class="typography__block">
+    <img src="<?php echo get_template_directory_uri(); ?>/images/lifesum.png" style="max-width: 150px; margin-left: 0; margin-bottom: 20px;"><br>
+    Proteingröten är inte bara smakligt god, utan även nyttig. Använder du Lifesum för att hålla koll på kosten kommer vår gröt att hjälpa dig på vägen. Gröten är A klassad på Lifesum!
+    <br>
+    </span>
+    
+    <img src="<?php echo get_template_directory_uri(); ?>/images/bg/lifesumbg.png" style="max-width: 200px; position: absolute; right: 0; top: 0;">
+   
+    <a href="#kop"><button class="btn btn__green" style="margin-top: 20px">Köp gröt</button></a>
+    </div>
+
+</div>
+
+<div class="block block__content bg__green small__padding">
+	<?php echo do_shortcode('[instagram-feed]') ?>
+</div>
+
 <div class="block block__content">
   <div class="grid__four_twelve">
+
   <ul>
 	<li class="nav-item">
                 <a class="nav-link" href="#">FAQ</a>
@@ -82,15 +106,25 @@ style="<?php if( $bgbuy ) {echo 'background: url('.$bgbuy.') center center';} el
                 <a class="nav-link" href="#">Kontakt</a>
             </li>
     </ul>
+
+  <img src="<?php echo get_template_directory_uri(); ?>/images/brand/logo-green.png" class="footer__img">
+
   </div>
 
-    <div class="grid__four_twelve">
-    <a href="https://www.facebook.com/proteingrot/" target="_blank"><span class="fa fa-facebook-official fa-4x" aria-hidden="true" style="color:black;"></span></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-	<a href="https://www.instagram.com/proteingrot.se/" target="_blank"><span class="fa fa-instagram fa-4x" aria-hidden="true" style="color:black;"></span></a>
+    <div class="grid__three_twelve">
+    <a href="https://www.facebook.com/proteingrot/" target="_blank"><span class="fa fa-facebook-official fa-4x green__icon" aria-hidden="true" style="color:black;"></span></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="https://www.instagram.com/proteingrot.se/" target="_blank"><span class="fa fa-instagram green__icon fa-4x" aria-hidden="true" style="color:black;"></span></a>
   </div>
   
-    <div class="grid__four_twelve">
-  <?php echo do_shortcode('[mc4wp_form id="97"]'); ?><!-- mailchimp -->
+    <div class="grid__five_twelve">
+  	<?php echo do_shortcode('[mc4wp_form id="97"]'); ?><!-- mailchimp -->
   </div>
-   </div>
+  
+  <div class="grid__twelve_twelve align__center spacing__medium_top" style="margin-top: 70px">
+  	<span class="typography__block align__center" style="margin-top: 20px;">Copyright 2016 - proteingrot.se</span>
+    </div>
+  
+ </div>
+ 
+
 <?php get_footer(); ?>

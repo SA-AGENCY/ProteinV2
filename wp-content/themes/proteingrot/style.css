@@ -121,9 +121,12 @@ header .right-links {
 	color: #000;
 }
 
+header .right-links a {color: #fff; text-decoration: none; margin-right: 1em;}
+
 header .right-links .user {
 	width: auto;
 	height: auto;
+	margin-right: 0;
 }
 
 header .right-links .user .button {
@@ -492,6 +495,7 @@ header .menu-desktop .current_page_item a::after {
 
 .scroll__trigger ul li a {color: #000;}
 .scroll__trigger .right-links {color: #000;}
+.scroll__trigger .right-links a {color: #000;}
 .scroll__trigger .right-links .user .button {color: #000; border-color: #000;}
 
 .menu-toggle-transparent .scrolled .menu-bar {background: #000;}
@@ -619,3 +623,46 @@ h6 {font-size: 1.5em;}
 	.block__buy {max-width: 100%;}
 	.block__buy h3 {font-size: 1.3em;}
 }
+
+.footer__img {
+	max-width: 200px;
+}
+
+.mc4wp-form-fields input {
+	width: 45% !important;
+	float: left !important;
+	display: inline-block !important;
+	margin-right: 5%;
+	padding: 13px 10px;
+	font-size: 0.9em;
+}
+
+.mc4wp-form-fields .btn__form {
+	height: auto;
+	padding: 13px 30px;
+	border: 2px solid #fff;
+	border-radius: 30px;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 700;
+	letter-spacing: 0.05em;
+	font-size: 0.9em;
+	cursor: pointer;
+	background: #74AF27;
+	border-color: #74AF27;
+	text-align: center;
+	float: left !important;
+	margin-top: -25px !important;
+}
+
+.green__icon {color: #74AF27 !important;}
+
+.table-cell {display: table-cell; vertical-align: middle; width: 33.33%;}
+
+.bg__green {background: #74AF27;}
+
+.small__padding {padding: 30px 40px; padding-bottom: 10px;}
+.sbi_photo {border: 10px solid #fff !important;}
+
+.iphone__bg {background: #FAFAF5;}
+.iphone__bg img {max-width: 40%; margin-left: 30%;}
