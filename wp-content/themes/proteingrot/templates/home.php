@@ -61,27 +61,16 @@ style="<?php if( $bgbuy ) {echo 'background: url('.$bgbuy.') center center';} el
 
 </div>
 
-<!-- <section class="footer-sub">
- <div class="wrapper">
-  <div class="block__wrapper align__center">
-<h4 class="typography__block spacing__medium_bot">Partners</h4></div></div><br>
-  <div class="holder"><img src="http://woowho.se/wp-content/themes/protein/images/logos/nordicwellness.png"></div>
-  <div class="holder"><img src="http://woowho.se/wp-content/themes/protein/images/logos/bodybox.png"></div>
-  <div class="holder"><img src="http://woowho.se/wp-content/themes/protein/images/logos/herfitness.png"></div>
-  <div class="holder"><img src="http://woowho.se/wp-content/themes/protein/images/logos/placeholder.png"></div>
-  <div class="holder"><img src="http://woowho.se/wp-content/themes/protein/images/logos/placeholder.png"></div>
- </div>
-</section> -->
 
 <div class="block block__content iphone__bg">
 	<div class="grid__six_twelve">
-    	<img src="<?php echo get_template_directory_uri(); ?>/images/iphone.png">
+    	<img src="<?php echo get_field('lifesum_image');?>"></img>
     </div>
     
     <div class="grid__six_twelve">
     <span class="typography__block">
-    <img src="<?php echo get_template_directory_uri(); ?>/images/lifesum.png" style="max-width: 150px; margin-left: 0; margin-bottom: 20px;"><br>
-    Proteingröten är inte bara smakligt god, utan även nyttig. Använder du Lifesum för att hålla koll på kosten kommer vår gröt att hjälpa dig på vägen. Gröten är A klassad på Lifesum!
+    <img src="<?php echo get_field('lifesum_title_img');?>" style="max-width: 150px; margin-left: 0; margin-bottom: 20px;"></img><br>
+    <?php echo get_field('lifesum_text');?>
     <br>
     </span>
     
