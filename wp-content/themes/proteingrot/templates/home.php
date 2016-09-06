@@ -92,6 +92,44 @@ style="<?php if( $bgbuy ) {echo 'background: url('.$bgbuy.') center center';} el
 
 </div>
 
+
+ <div class="block block__content bg__green small__padding">
+<!-- gröt -->
+  <div class="grid__six_twelve" >
+   <span class="typography__block" data-os-animation="bounceInLeft" data-os-animation-delay="0s" style="color:white;">Bra näringsvärden, på riktigt!, </span><br>
+   <span class="typography__block" data-os-animation="bounceInLeft" data-os-animation-delay="0s" style="color:white;"><i class="fa fa-check" aria-hidden="true"></i> 185 Kcal</span>
+   <span class="typography__block" data-os-animation="bounceInLeft" data-os-animation-delay="0s" style="color:white;"><i class="fa fa-check" aria-hidden="true"></i> 22% Protein</span>
+   <span class="typography__block" data-os-animation="bounceInLeft" data-os-animation-delay="0s" style="color:white;"><i class="fa fa-check" aria-hidden="true"></i> 6% Chiafrön</span><br>
+   
+   <span class="textBlock colorWhite os-animation" data-os-animation="bounceInLeft" data-os-animation-delay="0s" style="color:white;">
+   Ingredienser:
+   <b>Havregryn</b>, <b>rågflingor</b>, <b>vassleproteinkoncentrat
+   (mjölk, sojalecitin)</b>, chiafrön, sockerbetsfiber,
+   äppeltärningar, solroslecitin, kanel,
+   natriumklorid, arom.
+   </span>
+  </div>
+  
+  <div class="width50 cell textCenter">
+   <img class="grotpase os-animation" data-os-animation="bounceInRight" data-os-animation-delay="0s" src="<?php echo get_template_directory_uri(); ?>/images/grotpase.png" style="max-width: 400px; position: absolute; right: 0; top: 0;">
+  </div>
+ 
+ </div>
+ 
+ 
+
+
+ <h4 class="typography__block spacing__medium_bot"> Partners</h4>
+  <div class="block block__content bg__white small__padding">
+  <img src="<?php echo get_template_directory_uri(); ?>/images/logos/nordicwellness.png" style="height:15%;width:15%;">
+  <img src="<?php echo get_template_directory_uri(); ?>/images/logos/bodybox.png" style="height:15%;width:15%;">
+  <img src="<?php echo get_template_directory_uri(); ?>/images/logos/herfitness.png" style="height:15%;width:15%;">
+  <img src="<?php echo get_template_directory_uri(); ?>/images/logos/placeholder.png" style="height:15%;width:15%;">
+  <img src="<?php echo get_template_directory_uri(); ?>/images/logos/placeholder.png" style="height:15%;width:15%;">
+ </div>
+
+
+
 <div class="block block__content bg__green small__padding">
 	<?php echo do_shortcode('[instagram-feed]') ?>
 </div>
@@ -99,15 +137,15 @@ style="<?php if( $bgbuy ) {echo 'background: url('.$bgbuy.') center center';} el
 <div class="block block__content">
   <div class="grid__four_twelve">
 
-  <ul>
-	<li class="nav-item">
-                <a class="nav-link" href="#">FAQ</a>
-                <a class="nav-link" href="/villkor">Köpvillkor</a>
-                <a class="nav-link" href="#">Kontakt</a>
-            </li>
-    </ul>
-
-  <img src="<?php echo get_template_directory_uri(); ?>/images/brand/logo-green.png" class="footer__img">
+  <ul class="menu-desktop sa-anim">
+  	<div class="menu-main-container"><ul id="menu-main" class="menu">
+<li id="menu-item-87" class="menu-item-87"><a href="#kop">FAQ</a></li>
+<li id="menu-item-25" class="menu-item-25"><a href="http://localhost:9000/villkor/">Köpvillkor</a></li>
+<li id="menu-item-30" class="menu-item-30"><a href="http://localhost:9000/kontakt/">Kontakt</a></li>
+	</div>
+	 </ul>
+	
+  <img src="<?php echo get_template_directory_uri(); ?>/images/SF_pos.svg" class="footer__img">
 
   </div>
 
