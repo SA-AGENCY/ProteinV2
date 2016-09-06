@@ -86,30 +86,25 @@ style="<?php if( $bgbuy ) {echo 'background: url('.$bgbuy.') center center';} el
 <!-- gröt -->
   <div class="grid__six_twelve" >
    <h4 class="typography__block spacing__medium_bot"><span class="typography__block" data-os-animation="bounceInLeft" data-os-animation-delay="0s" style="color:white;">Bra näringsvärden, på riktigt!, </span></h4><br>
-   <h4 class="typography__block spacing__medium_bot"><span class="typography__block" data-os-animation="bounceInLeft" data-os-animation-delay="0s" style="color:white;"><i class="fa fa-check" aria-hidden="true"></i> 185 Kcal</span></h4>
-   <h4 class="typography__block spacing__medium_bot"><span class="typography__block" data-os-animation="bounceInLeft" data-os-animation-delay="0s" style="color:white;"><i class="fa fa-check" aria-hidden="true"></i> 22% Protein</span></h4>
-   <h4 class="typography__block spacing__medium_bot"><span class="typography__block" data-os-animation="bounceInLeft" data-os-animation-delay="0s" style="color:white;"><i class="fa fa-check" aria-hidden="true"></i> 6% Chiafrön</span></h4><br>
+   <h4 class="typography__block spacing__medium_bot"><span class="typography__block" data-os-animation="bounceInLeft" data-os-animation-delay="0s" style="color:white;"><i class="fa fa-check" aria-hidden="true"></i><?php echo get_field('first_checkmark');?></span><br>
+	<span class="typography__block" data-os-animation="bounceInLeft" data-os-animation-delay="0s" style="color:white;"><i class="fa fa-check" aria-hidden="true"></i><?php echo get_field('second_checkmark');?></span><br>
+   <span class="typography__block" data-os-animation="bounceInLeft" data-os-animation-delay="0s" style="color:white;"><i class="fa fa-check" aria-hidden="true"></i><?php echo get_field('third_checkmark');?></span></h4><br>
    
    <span class="textBlock colorWhite os-animation" data-os-animation="bounceInLeft" data-os-animation-delay="0s" style="color:white;">
-   Ingredienser:
-   <b>Havregryn</b>, <b>rågflingor</b>, <b>vassleproteinkoncentrat
-   (mjölk, sojalecitin)</b>, chiafrön, sockerbetsfiber,
-   äppeltärningar, solroslecitin, kanel,
-   natriumklorid, arom.
+<?php echo get_field('Ingredienser');?>
    </span>
   </div>
   
   <div class="width50 cell textCenter">
-   <img class="grotpase os-animation" data-os-animation="bounceInRight" data-os-animation-delay="0s" src="<?php echo get_template_directory_uri(); ?>/images/grotpase.png" style="max-width: 400px; position: absolute; right: 0; top: 0;">
+   <img class="grotpase os-animation" data-os-animation="bounceInRight" data-os-animation-delay="0s" src="<?php echo get_field('naringsvarde_image');?>" style="max-width: 400px; position: absolute; right: 0; top: 0;"></img>
   </div>
  
  </div>
  
- 
 
 
- <h4 class="typography__block spacing__medium_bot"> Partners</h4>
   <div class="block block__content bg__white small__padding">
+  
   <img src="<?php echo get_template_directory_uri(); ?>/images/logos/nordicwellness.png" style="height:15%;width:15%;">
   <img src="<?php echo get_template_directory_uri(); ?>/images/logos/bodybox.png" style="height:15%;width:15%;">
   <img src="<?php echo get_template_directory_uri(); ?>/images/logos/herfitness.png" style="height:15%;width:15%;">
