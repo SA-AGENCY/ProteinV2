@@ -85,10 +85,10 @@ style="<?php if( $bgbuy ) {echo 'background: url('.$bgbuy.') center center';} el
  <div class="block block__content bg__green small__padding">
 <!-- gröt -->
   <div class="grid__six_twelve" >
-   <span class="typography__block" data-os-animation="bounceInLeft" data-os-animation-delay="0s" style="color:white;">Bra näringsvärden, på riktigt!, </span><br>
-   <span class="typography__block" data-os-animation="bounceInLeft" data-os-animation-delay="0s" style="color:white;"><i class="fa fa-check" aria-hidden="true"></i> 185 Kcal</span>
-   <span class="typography__block" data-os-animation="bounceInLeft" data-os-animation-delay="0s" style="color:white;"><i class="fa fa-check" aria-hidden="true"></i> 22% Protein</span>
-   <span class="typography__block" data-os-animation="bounceInLeft" data-os-animation-delay="0s" style="color:white;"><i class="fa fa-check" aria-hidden="true"></i> 6% Chiafrön</span><br>
+   <h4 class="typography__block spacing__medium_bot"><span class="typography__block" data-os-animation="bounceInLeft" data-os-animation-delay="0s" style="color:white;">Bra näringsvärden, på riktigt!, </span></h4><br>
+   <h4 class="typography__block spacing__medium_bot"><span class="typography__block" data-os-animation="bounceInLeft" data-os-animation-delay="0s" style="color:white;"><i class="fa fa-check" aria-hidden="true"></i> 185 Kcal</span></h4>
+   <h4 class="typography__block spacing__medium_bot"><span class="typography__block" data-os-animation="bounceInLeft" data-os-animation-delay="0s" style="color:white;"><i class="fa fa-check" aria-hidden="true"></i> 22% Protein</span></h4>
+   <h4 class="typography__block spacing__medium_bot"><span class="typography__block" data-os-animation="bounceInLeft" data-os-animation-delay="0s" style="color:white;"><i class="fa fa-check" aria-hidden="true"></i> 6% Chiafrön</span></h4><br>
    
    <span class="textBlock colorWhite os-animation" data-os-animation="bounceInLeft" data-os-animation-delay="0s" style="color:white;">
    Ingredienser:
